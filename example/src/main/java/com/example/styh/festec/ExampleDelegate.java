@@ -24,7 +24,7 @@ public class ExampleDelegate extends LatteDelegate {
 
     private void testRestClient(){
         RestClient.builder()
-                .url("http://news.baidu.com/")
+                .url("https://www.bilibili.com/")
                 .loader(getContext())
 //                .params("","")
                 .success(new ISuccess() {
